@@ -1,6 +1,6 @@
 # Sistema de Mensajería
 
-![Logo del Proyecto](tu_logo.png)
+![Logo del Proyecto]([tu_logo.png](https://github.com/ezequielsilvauy/SistemaMensajeria/blob/main/Screenshot%202023-09-27%20101244.png?raw=true))
 
 ## Descripción
 
