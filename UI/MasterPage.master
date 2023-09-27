@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 144px;
+        }
+        .auto-style2 {
+            width: 204px;
+        }
+        .auto-style3 {
+            width: 1125px;
+        }
+        .auto-style4 {
+            width: 144px;
+            height: 79px;
+        }
+        .auto-style5 {
+            width: 204px;
+            height: 79px;
+        }
+        .auto-style6 {
+            width: 1125px;
+            height: 79px;
+        }
+        .auto-style7 {
+            width: 144px;
+            height: 111px;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .auto-style8 {
+            width: 204px;
+            height: 111px;
+        }
+        .auto-style9 {
+            width: 1125px;
+            height: 111px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table border="1">
+            <tr>
+                <td class="auto-style7"><strong><em>Mensajería</em></strong></td>
+                <td class="auto-style8"></td>
+                <td class="auto-style9">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                        <Items>
+                            <asp:MenuItem Text="Mantenimientos" Value="Mantenimientos">
+                                <asp:MenuItem NavigateUrl="~/MantenimientoUsuarios.aspx" Text="Mantenimiento Usuarios" Value="Mantenimiento Usuarios"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/MantenimientoTiposMensajes.aspx" Text="Mantenimiento Tipos Mensajes" Value="Mantenimiento Tipos Mensajes"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Mensajes" Value="Mensajes">
+                                <asp:MenuItem NavigateUrl="~/AgregarMensajeComun.aspx" Text="Agregar Mensaje Comun" Value="Agregar Mensaje Comun"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/AgregarMensajePrivado.aspx" Text="Agregar Mensaje Privado" Value="Agregar Mensaje Privado"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Listados" Value="Listados">
+                                <asp:MenuItem NavigateUrl="~/ListadoMensajesComunesDeUnUsuario.aspx" Text="Listado Mensajes Comunes de un Usuario" Value="Listado Mensajes Comunes de un Usuario"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/ListadoMensajesPrivadosDeUnUsuario.aspx" Text="Listado Mensajes Privados de un Usuario" Value="Listado Mensajes Privados de un Usuario"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4"></td>
+                <td class="auto-style5"></td>
+                <td class="auto-style6"></td>
+            </tr>
+            <tr>
+                <td class="auto-style1">&nbsp;</td>
+                <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style3">
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    </form>
+</body>
+</html>
