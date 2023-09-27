@@ -1,4 +1,4 @@
-![image](https://github.com/ezequielsilvauy/SistemaMensajeria/assets/121348704/cdd8339e-cab9-422f-b71a-ac188523d148)# Sistema de Mensajería
+# Sistema de Mensajería
 
 ![Logo del Proyecto](https://github.com/ezequielsilvauy/SistemaMensajeria/blob/main/Screenshot%202023-09-27%20101244.png?raw=true)
 
