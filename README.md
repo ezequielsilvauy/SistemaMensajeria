@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Este proyecto es un sistema de mensajería desarrollado en WinForms con ASP.NET, C# y SQL Server. Facilita la comunicación en tiempo real entre usuarios, permitiendo enviar mensajes y participar en conversaciones individuales y grupales.
+Este proyecto es un sistema de mensajería desarrollado en WinForms con ASP.NET, C# y SQL Server. Facilita la comunicación entre usuarios.
 
 ## Capturas de Pantalla
 
@@ -20,5 +20,5 @@ Este proyecto es un sistema de mensajería desarrollado en WinForms con ASP.NET,
 
 ## Requisitos
 
-- .NET Framework 4.5 o superior.
+- .NET Framework 4 o superior.
 - SQL Server 2016 o posterior.
